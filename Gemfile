@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.1.6'
+gem 'pg'
 gem 'rails_12factor'
 gem 'tzinfo-data'
 gem 'rails',          '4.2.0'
@@ -13,7 +14,6 @@ gem 'jbuilder',       '2.2.3'
 gem 'sdoc',           '0.4.0', group: :doc
 
 group :development, :test do
-  gem 'sqlite3',      '1.3.10'
   gem 'byebug',       '3.4.0'
   gem 'spring',       '1.1.3'
 end
